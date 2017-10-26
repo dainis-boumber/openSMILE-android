@@ -1,0 +1,773 @@
+src/libopensmile_la-componentManager.lo: src/componentManager.cpp \
+ src/componentManager.hpp src/smileCommon.hpp config.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/stdlib.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stddef.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/features.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/user_config.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/compat.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/host.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_system.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_android.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
+ /home/dainis/DHS/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/../include/stddef.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/string.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/malloc.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/alloca.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/strings.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/memory.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/stdio.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stdarg.h \
+ /home/dainis/DHS/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/../include/stdarg.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/math.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/limits.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/limits.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/limits.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/limits.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/page.h \
+ src/smileTypes.hpp \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/inttypes.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/time.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/time.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/pthread.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/time.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/signal.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/signal.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sched.h \
+ src/exceptions.hpp src/smileLogger.hpp src/smileUtil.h src/fftXg.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/senguard_getline.h \
+ src/smileComponent.hpp src/configManager.hpp src/commandlineParser.hpp \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/errno.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/errno.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/errno.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h \
+ src/dataMemory.hpp \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/unistd.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/select.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/sysconf.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/capability.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/pathconf.h \
+ src/dataReader.hpp src/dataWriter.hpp src/dataSource.hpp \
+ src/dataSink.hpp src/dataProcessor.hpp src/dataSelector.hpp \
+ src/vectorProcessor.hpp src/vectorTransform.hpp src/windowProcessor.hpp \
+ src/winToVecProcessor.hpp src/exampleSource.hpp src/exampleSink.hpp \
+ src/exampleProcessor.hpp src/buffer.hpp src/vectorConcat.hpp \
+ src/windower.hpp src/framer.hpp src/vectorOperation.hpp \
+ src/valbasedSelector.hpp src/fullinputMean.hpp \
+ src/multipleWaveSources.hpp \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/string \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_alloc.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cstddef.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cmath.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cstring.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/using/cstring \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_algobase.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/climits \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_pair.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/type_traits.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/type_manips.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_algobase.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_function_base.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iterator.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_new.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/../../gabi++/include/new \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/cstddef \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/exception \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_construct.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/../include/wchar.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_npos.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_operators.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_function.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_range_errors.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_hash.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_io.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ostream.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ios.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ios_base.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_exception.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_locale.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_threads.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_threads.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ctype.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/c_locale.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_numpunct.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ios.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_streambuf.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_streambuf.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ostream.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_put.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_put.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_limits.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/cfloat \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/float.h \
+ /home/dainis/DHS/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/../include/float.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_limits.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_istream.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_istream.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/iostream \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ioserr.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/fstream \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_fstream.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_codecvt.h \
+ /home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_fstream.c \
+ src/waveSource.hpp src/arffSource.hpp src/csvSource.hpp \
+ src/htkSource.hpp src/htkSink.hpp src/portaudioSource.hpp \
+ src/bowProducer.hpp src/signalGenerator.hpp src/csvSink.hpp \
+ src/datadumpSink.hpp src/arffSink.hpp src/libsvmSink.hpp \
+ src/waveSink.hpp src/waveSinkCut.hpp src/nullSink.hpp \
+ src/libsvmliveSink.hpp svm/svm.h src/tumkwsaSink.hpp src/tumkwsjSink.hpp \
+ src/portaudioSink.hpp src/nnlPlugin.hpp src/portaudioDuplex.hpp \
+ src/portaudioDuplexS.hpp src/portaudioDuplexD.hpp src/transformFft.hpp \
+ src/fftmagphase.hpp src/specScale.hpp src/amdf.hpp src/acf.hpp \
+ src/preemphasis.hpp src/vectorPreemphasis.hpp src/mzcr.hpp \
+ src/echoAttenuator.hpp src/echoCanceller.hpp src/speexPreprocess.hpp \
+ src/speexResample.hpp src/smileResample.hpp src/libSamplerate.hpp \
+ src/stretchToTime.hpp src/channelMixer.hpp src/specResample.hpp \
+ src/energy.hpp src/intensity.hpp src/dbA.hpp src/melspec.hpp \
+ src/mfcc.hpp src/plp.hpp src/tonespec.hpp src/tonefilt.hpp \
+ src/chroma.hpp src/cens.hpp src/chromaFeatures.hpp src/chordFeatures.hpp \
+ src/chromaPerFrame.hpp src/spectral.hpp src/pitchBase.hpp \
+ src/pitchShs.hpp src/pitchHpsLinf.hpp src/pitchACF.hpp \
+ src/pitchAmdfAcf.hpp src/pitchSmoother.hpp src/pitchJitter.hpp \
+ src/lpc.hpp src/lsp.hpp src/formantLpc.hpp src/formantSmoother.hpp \
+ src/pitchDirection.hpp src/vecGlMean.hpp src/vectorMVN.hpp \
+ src/vectorHEQ.hpp src/vectorMVStd.hpp src/deltaRegression.hpp \
+ src/weightedDiff.hpp src/contourSmoother.hpp src/functionals.hpp \
+ src/functionalComponent.hpp src/functionalsVecToVec.hpp \
+ src/functionalExtremes.hpp src/functionalMeans.hpp \
+ src/functionalPeaks.hpp src/functionalSegments.hpp \
+ src/functionalOnset.hpp src/functionalMoments.hpp \
+ src/functionalCrossings.hpp src/functionalPercentiles.hpp \
+ src/functionalRegression.hpp src/functionalSamples.hpp \
+ src/functionalTimes.hpp src/functionalDCT.hpp src/turnDetector.hpp \
+ src/vadV1.hpp src/speechLearn.hpp src/semaineSpeakerID1.hpp \
+ src/volanalyse.hpp src/fingerprint.hpp \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/dirent.h \
+ /home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/dlfcn.h
+
+src/componentManager.hpp:
+
+src/smileCommon.hpp:
+
+config.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/stdlib.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stddef.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/features.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/user_config.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/compat.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/host.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_system.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_android.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h:
+
+/home/dainis/DHS/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/../include/stddef.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/string.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/alloca.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/strings.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/memory.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/stdio.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stdarg.h:
+
+/home/dainis/DHS/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/../include/stdarg.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/math.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/limits.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/page.h:
+
+src/smileTypes.hpp:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/inttypes.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/time.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/time.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/pthread.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/time.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/signal.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sched.h:
+
+src/exceptions.hpp:
+
+src/smileLogger.hpp:
+
+src/smileUtil.h:
+
+src/fftXg.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/senguard_getline.h:
+
+src/smileComponent.hpp:
+
+src/configManager.hpp:
+
+src/commandlineParser.hpp:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/errno.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/errno.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm/errno.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h:
+
+src/dataMemory.hpp:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/unistd.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/select.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/sys/sysconf.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/linux/capability.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/pathconf.h:
+
+src/dataReader.hpp:
+
+src/dataWriter.hpp:
+
+src/dataSource.hpp:
+
+src/dataSink.hpp:
+
+src/dataProcessor.hpp:
+
+src/dataSelector.hpp:
+
+src/vectorProcessor.hpp:
+
+src/vectorTransform.hpp:
+
+src/windowProcessor.hpp:
+
+src/winToVecProcessor.hpp:
+
+src/exampleSource.hpp:
+
+src/exampleSink.hpp:
+
+src/exampleProcessor.hpp:
+
+src/buffer.hpp:
+
+src/vectorConcat.hpp:
+
+src/windower.hpp:
+
+src/framer.hpp:
+
+src/vectorOperation.hpp:
+
+src/valbasedSelector.hpp:
+
+src/fullinputMean.hpp:
+
+src/multipleWaveSources.hpp:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/string:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_alloc.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cstddef.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cmath.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cstring.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/using/cstring:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_algobase.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/climits:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_pair.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/type_traits.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/type_manips.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_algobase.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_function_base.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iterator.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_new.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/../../gabi++/include/new:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/cstddef:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/exception:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_construct.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_alloc.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/char_traits.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/../include/wchar.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_base.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_npos.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_operators.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_function.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_range_errors.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_hash.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_io.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ostream.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ios.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ios_base.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_exception.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_locale.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_threads.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_threads.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ctime.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ctype.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/c_locale.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_numpunct.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ios.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_streambuf.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_streambuf.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ostream.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_put.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_put.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_limits.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/cfloat:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/float.h:
+
+/home/dainis/DHS/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/include/../include/float.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_limits.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_istream.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_istream.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_get.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/iostream:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_ioserr.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/fstream:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_fstream.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_codecvt.h:
+
+/home/dainis/DHS/android-ndk-r8e/sources/cxx-stl/stlport/stlport/stl/_fstream.c:
+
+src/waveSource.hpp:
+
+src/arffSource.hpp:
+
+src/csvSource.hpp:
+
+src/htkSource.hpp:
+
+src/htkSink.hpp:
+
+src/portaudioSource.hpp:
+
+src/bowProducer.hpp:
+
+src/signalGenerator.hpp:
+
+src/csvSink.hpp:
+
+src/datadumpSink.hpp:
+
+src/arffSink.hpp:
+
+src/libsvmSink.hpp:
+
+src/waveSink.hpp:
+
+src/waveSinkCut.hpp:
+
+src/nullSink.hpp:
+
+src/libsvmliveSink.hpp:
+
+svm/svm.h:
+
+src/tumkwsaSink.hpp:
+
+src/tumkwsjSink.hpp:
+
+src/portaudioSink.hpp:
+
+src/nnlPlugin.hpp:
+
+src/portaudioDuplex.hpp:
+
+src/portaudioDuplexS.hpp:
+
+src/portaudioDuplexD.hpp:
+
+src/transformFft.hpp:
+
+src/fftmagphase.hpp:
+
+src/specScale.hpp:
+
+src/amdf.hpp:
+
+src/acf.hpp:
+
+src/preemphasis.hpp:
+
+src/vectorPreemphasis.hpp:
+
+src/mzcr.hpp:
+
+src/echoAttenuator.hpp:
+
+src/echoCanceller.hpp:
+
+src/speexPreprocess.hpp:
+
+src/speexResample.hpp:
+
+src/smileResample.hpp:
+
+src/libSamplerate.hpp:
+
+src/stretchToTime.hpp:
+
+src/channelMixer.hpp:
+
+src/specResample.hpp:
+
+src/energy.hpp:
+
+src/intensity.hpp:
+
+src/dbA.hpp:
+
+src/melspec.hpp:
+
+src/mfcc.hpp:
+
+src/plp.hpp:
+
+src/tonespec.hpp:
+
+src/tonefilt.hpp:
+
+src/chroma.hpp:
+
+src/cens.hpp:
+
+src/chromaFeatures.hpp:
+
+src/chordFeatures.hpp:
+
+src/chromaPerFrame.hpp:
+
+src/spectral.hpp:
+
+src/pitchBase.hpp:
+
+src/pitchShs.hpp:
+
+src/pitchHpsLinf.hpp:
+
+src/pitchACF.hpp:
+
+src/pitchAmdfAcf.hpp:
+
+src/pitchSmoother.hpp:
+
+src/pitchJitter.hpp:
+
+src/lpc.hpp:
+
+src/lsp.hpp:
+
+src/formantLpc.hpp:
+
+src/formantSmoother.hpp:
+
+src/pitchDirection.hpp:
+
+src/vecGlMean.hpp:
+
+src/vectorMVN.hpp:
+
+src/vectorHEQ.hpp:
+
+src/vectorMVStd.hpp:
+
+src/deltaRegression.hpp:
+
+src/weightedDiff.hpp:
+
+src/contourSmoother.hpp:
+
+src/functionals.hpp:
+
+src/functionalComponent.hpp:
+
+src/functionalsVecToVec.hpp:
+
+src/functionalExtremes.hpp:
+
+src/functionalMeans.hpp:
+
+src/functionalPeaks.hpp:
+
+src/functionalSegments.hpp:
+
+src/functionalOnset.hpp:
+
+src/functionalMoments.hpp:
+
+src/functionalCrossings.hpp:
+
+src/functionalPercentiles.hpp:
+
+src/functionalRegression.hpp:
+
+src/functionalSamples.hpp:
+
+src/functionalTimes.hpp:
+
+src/functionalDCT.hpp:
+
+src/turnDetector.hpp:
+
+src/vadV1.hpp:
+
+src/speechLearn.hpp:
+
+src/semaineSpeakerID1.hpp:
+
+src/volanalyse.hpp:
+
+src/fingerprint.hpp:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/dirent.h:
+
+/home/dainis/DHS/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/dlfcn.h:
